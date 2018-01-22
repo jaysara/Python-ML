@@ -1,0 +1,250 @@
+GraphLab Create Launcher, version 3.0.1
+Darwin (darwin) release: 16.7.0
+CPUs: 8 (x64)
+Total Memory: 17179869184
+Installation process initialized.
+
+=== System State ===
+
+Current time: 2018-01-22T17:49:47.032Z
+
+{
+  "PATH": "/Users/jsarl/.nvm/versions/node/v4.8.7/bin:/Users/jsarl/anaconda3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/jsarl/apache-maven-3.5.0/bin",
+  "SHELL": "/bin/bash",
+  "HOME": "/Users/jsarl",
+  "USERPROFILE": "",
+  "TEMP": "",
+  "undefined": ""
+}
+
+Local settings:
+{
+  "licenseEmail": "jsarl@allstate.com",
+  "licenseKey": "09FB-DD08-ABB9-4025-2727-4729-1576-24C1",
+  "anacondaPath": "/Users/jsarl/anaconda3"
+}
+
+isCondaInEnvironment: true
+isPipInEnvironment: true
+Selected Anaconda path is /Users/jsarl/anaconda3
+isCondaAvailable("/Users/jsarl/anaconda3"): true
+
+conda info:
+Current conda install:
+
+               platform : osx-64
+          conda version : 4.3.27
+       conda is private : False
+      conda-env version : 4.3.27
+    conda-build version : 3.0.22
+         python version : 3.6.2.final.0
+       requests version : 2.18.4
+       root environment : /Users/jsarl/anaconda3  (writable)
+    default environment : /Users/jsarl/anaconda3
+       envs directories : /Users/jsarl/anaconda3/envs
+                          /Users/jsarl/.conda/envs
+          package cache : /Users/jsarl/anaconda3/pkgs
+                          /Users/jsarl/.conda/pkgs
+           channel URLs : https://repo.continuum.io/pkgs/main/osx-64
+                          https://repo.continuum.io/pkgs/main/noarch
+                          https://repo.continuum.io/pkgs/free/osx-64
+                          https://repo.continuum.io/pkgs/free/noarch
+                          https://repo.continuum.io/pkgs/r/osx-64
+                          https://repo.continuum.io/pkgs/r/noarch
+                          https://repo.continuum.io/pkgs/pro/osx-64
+                          https://repo.continuum.io/pkgs/pro/noarch
+            config file : /Users/jsarl/.condarc
+             netrc file : None
+           offline mode : False
+             user-agent : conda/4.3.27 requests/2.18.4 CPython/3.6.2 Darwin/16.7.0 OSX/10.12.6    
+                UID:GID : 688754468:81860857
+# conda environments:
+#
+root                  *  /Users/jsarl/anaconda3
+
+sys.version: 3.6.2 |Anaconda, Inc.| (default, Sep 21 ...
+sys.prefix: /Users/jsarl/anaconda3
+sys.executable: /Users/jsarl/anaconda3/bin/python
+conda location: /Users/jsarl/anaconda3/lib/python3.6/site-packages/conda
+conda-build: /Users/jsarl/anaconda3/bin/conda-build
+conda-convert: /Users/jsarl/anaconda3/bin/conda-convert
+conda-develop: /Users/jsarl/anaconda3/bin/conda-develop
+conda-env: /Users/jsarl/anaconda3/bin/conda-env
+conda-index: /Users/jsarl/anaconda3/bin/conda-index
+conda-inspect: /Users/jsarl/anaconda3/bin/conda-inspect
+conda-metapackage: /Users/jsarl/anaconda3/bin/conda-metapackage
+conda-render: /Users/jsarl/anaconda3/bin/conda-render
+conda-server: /Users/jsarl/anaconda3/bin/conda-server
+conda-skeleton: /Users/jsarl/anaconda3/bin/conda-skeleton
+conda-verify: /Users/jsarl/anaconda3/bin/conda-verify
+user site dirs: 
+
+CIO_TEST: <not set>
+CONDA_DEFAULT_ENV: <not set>
+CONDA_ENVS_PATH: <not set>
+DYLD_LIBRARY_PATH: <not set>
+PATH: /Users/jsarl/.nvm/versions/node/v4.8.7/bin:/Users/jsarl/anaconda3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/jsarl/apache-maven-3.5.0/bin
+PYTHONHOME: <not set>
+PYTHONPATH: <not set>
+
+WARNING: could not import _license.show_info
+# try:
+# $ conda install -n root _license
+
+===================
+
+Obtained dependency info: {
+  "glc": {
+    "version": "2.1",
+    "url": "https://static.turi.com/products/graphlab-create/2.1/python2.7/macosx/GraphLab_Create-2.1-cp27-none-macosx_10_5_x86_64.macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.macosx_10_11_intel.macosx_10_11_x86_64.whl",
+    "filename": "GraphLab_Create-2.1-cp27-none-macosx_10_5_x86_64.macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.macosx_10_11_intel.macosx_10_11_x86_64.whl",
+    "md5": "0c5b811e7f83ea6d9bcfe50d23795d1d"
+  },
+  "anaconda": {
+    "version": "4.0.0",
+    "filename": "Anaconda2-4.0.0-MacOSX-x86_64.sh",
+    "url": "https://static.turi.com/products/graphlab-create-launcher/resources/anaconda/Anaconda2-4.0.0-MacOSX-x86_64.sh",
+    "md5": "a3443b46f99bc6680c77c688af1b1f5a"
+  }
+}
+
+Anaconda installation detected. Skipping download.
+
+Starting GraphLab Create 2.1 retrieval.
+
+Anaconda installation detected. Skipping installation.
+
+PATH environment variable updated.
+
+Updating conda package.
+
+UnsatisfiableError: The following specifications were found to be in conflict:
+  - conda 4.0.8* -> conda-env <2.5 -> python 2.7*
+  - python 3.6*
+Use "conda info <package>" to see the dependencies for each package.
+
+
+
+Capturing final system state:
+
+=== Packages in GraphLab Create Environment ===
+
+conda list:
+
+CondaEnvironmentNotFoundError: Could not find environment: gl-env .
+You can list all discoverable environments with `conda info --envs`.
+
+
+pip version:
+usage: conda [-h] [-V] command ...
+conda: error: argument command: invalid choice: '/Users/jsarl/anaconda3/bin/conda' (choose from 'info', 'help', 'list', 'search', 'create', 'install', 'update', 'upgrade', 'remove', 'uninstall', 'config', 'clean', 'package')
+
+pip list:
+usage: conda [-h] [-V] command ...
+conda: error: argument command: invalid choice: '/Users/jsarl/anaconda3/bin/conda' (choose from 'info', 'help', 'list', 'search', 'create', 'install', 'update', 'upgrade', 'remove', 'uninstall', 'config', 'clean', 'package')
+
+====================================
+
+=== System State ===
+
+Current time: 2018-01-22T17:50:06.618Z
+
+{
+  "PATH": "/Users/jsarl/anaconda3/bin:/Users/jsarl/.nvm/versions/node/v4.8.7/bin:/Users/jsarl/anaconda3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/jsarl/apache-maven-3.5.0/bin",
+  "SHELL": "/bin/bash",
+  "HOME": "/Users/jsarl",
+  "USERPROFILE": "",
+  "TEMP": "",
+  "undefined": ""
+}
+
+Local settings:
+{
+  "licenseEmail": "jsarl@allstate.com",
+  "licenseKey": "09FB-DD08-ABB9-4025-2727-4729-1576-24C1",
+  "anacondaPath": "/Users/jsarl/anaconda3"
+}
+
+isCondaInEnvironment: true
+isPipInEnvironment: true
+Selected Anaconda path is /Users/jsarl/anaconda3
+isCondaAvailable("/Users/jsarl/anaconda3"): true
+
+conda info:
+Current conda install:
+
+               platform : osx-64
+          conda version : 4.3.27
+       conda is private : False
+      conda-env version : 4.3.27
+    conda-build version : 3.0.22
+         python version : 3.6.2.final.0
+       requests version : 2.18.4
+       root environment : /Users/jsarl/anaconda3  (writable)
+    default environment : /Users/jsarl/anaconda3
+       envs directories : /Users/jsarl/anaconda3/envs
+                          /Users/jsarl/.conda/envs
+          package cache : /Users/jsarl/anaconda3/pkgs
+                          /Users/jsarl/.conda/pkgs
+           channel URLs : https://repo.continuum.io/pkgs/main/osx-64
+                          https://repo.continuum.io/pkgs/main/noarch
+                          https://repo.continuum.io/pkgs/free/osx-64
+                          https://repo.continuum.io/pkgs/free/noarch
+                          https://repo.continuum.io/pkgs/r/osx-64
+                          https://repo.continuum.io/pkgs/r/noarch
+                          https://repo.continuum.io/pkgs/pro/osx-64
+                          https://repo.continuum.io/pkgs/pro/noarch
+            config file : /Users/jsarl/.condarc
+             netrc file : None
+           offline mode : False
+             user-agent : conda/4.3.27 requests/2.18.4 CPython/3.6.2 Darwin/16.7.0 OSX/10.12.6    
+                UID:GID : 688754468:81860857
+# conda environments:
+#
+root                  *  /Users/jsarl/anaconda3
+
+sys.version: 3.6.2 |Anaconda, Inc.| (default, Sep 21 ...
+sys.prefix: /Users/jsarl/anaconda3
+sys.executable: /Users/jsarl/anaconda3/bin/python
+conda location: /Users/jsarl/anaconda3/lib/python3.6/site-packages/conda
+conda-build: /Users/jsarl/anaconda3/bin/conda-build
+conda-convert: /Users/jsarl/anaconda3/bin/conda-convert
+conda-develop: /Users/jsarl/anaconda3/bin/conda-develop
+conda-env: /Users/jsarl/anaconda3/bin/conda-env
+conda-index: /Users/jsarl/anaconda3/bin/conda-index
+conda-inspect: /Users/jsarl/anaconda3/bin/conda-inspect
+conda-metapackage: /Users/jsarl/anaconda3/bin/conda-metapackage
+conda-render: /Users/jsarl/anaconda3/bin/conda-render
+conda-server: /Users/jsarl/anaconda3/bin/conda-server
+conda-skeleton: /Users/jsarl/anaconda3/bin/conda-skeleton
+conda-verify: /Users/jsarl/anaconda3/bin/conda-verify
+user site dirs: 
+
+CIO_TEST: <not set>
+CONDA_DEFAULT_ENV: <not set>
+CONDA_ENVS_PATH: <not set>
+DYLD_LIBRARY_PATH: <not set>
+PATH: /Users/jsarl/anaconda3/bin:/Users/jsarl/.nvm/versions/node/v4.8.7/bin:/Users/jsarl/anaconda3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/jsarl/apache-maven-3.5.0/bin
+PYTHONHOME: <not set>
+PYTHONPATH: <not set>
+
+WARNING: could not import _license.show_info
+# try:
+# $ conda install -n root _license
+
+===================
+There was a problem updating the conda package.  Restart GraphLab Create Launcher.
+
+Unable to update conda:
+
+
+
+UnsatisfiableError: The following specifications were found to be in conflict:
+  - conda 4.0.8* -> conda-env <2.5 -> python 2.7*
+  - python 3.6*
+Use "conda info <package>" to see the dependencies for each package.
+
+
+  
+
+Process completed with exit code -1
